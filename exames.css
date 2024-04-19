@@ -1,0 +1,145 @@
+header{
+    background-color: rgb(0, 0, 0);
+    padding: 18px 0;
+
+    }
+        
+    .caixa-cabecalho{ 
+           
+        position: relative;
+        width: 950px;
+        margin:auto ;
+    }
+    
+    h1 img{ 
+        
+        height: 200px;/*altura*/
+        width: 250px;/*largura*/
+    }
+        
+    nav{/*MENU*/
+        position: absolute; /*posicionamento das palavras na caixa do menu*/
+        top: 100px; /*topo*/  
+        right: 175px;
+    }
+    
+    nav li {
+        display:inline;/*alinhar item (li) tabela ul ou ol*/
+        margin: 0 0 0 25px; /*ESPAÇAMENTO : 0 cima 0 direito 0 baixo 15px esquerda  */
+        text-align: center;
+    }
+    
+    nav a{ /*navegaçao  home ... */
+    text-transform: uppercase; /*maiusculo*/
+    color: rgb(255, 255, 255);
+    font-weight: bold; /*fonte em negrito*/
+    font-size: 20px ;
+    text-decoration:none ;/*sem sublinhar*/
+    }
+    nav a:hover{ /* marcar link ao passar o mouse em cima do link*/
+            color:rgb(150, 0, 0); /*cor que ira ficar ao passar com o mouse "HOME"*/
+            text-decoration: underline; /*sublinhar quando passar o moouse*/
+    }
+.servicos{
+    width: 940px;
+    margin: 0 auto;/* o 0 é espaçamento cima/baixo, o "auto é espaçamento lateral automatico*/
+    padding: 50px 0;
+   
+}
+
+.servicos li{ /*CAIXA DE SERVIÇOS "HOME"*/
+    display: inline-block; /* alinhar imagens e textos um ao lado do outro*/
+    text-align: center;
+    width: 30%;
+    vertical-align: top; 
+    margin: 4px 2px;/*margem da caixa 1,5 altura 1,5 largura */
+    padding: 0px 50px ;
+    box-sizing: border-box;/*caixa */
+    border:2px solid #000000; 
+    border-radius: 20px; /*Arredondamento das bordas */
+        
+/*BORDA elementos completo*/
+
+            /* border-color: rgb(179, 74, 74); /*cor da borda */
+            /*border-width: 2px ; /*tamanho da largura da borda  */
+            /* border-style: solid ; /*tipo de borda */ 
+
+border: 3px solid rgb(179, 74, 74)/*SIMPLIFICADO*/
+}
+
+
+.servicos li:hover { /* muda a cor da borda ao passar o mouse por cima  HOVER*/
+    border-color: rgb(0, 255, 0);
+    color: rgb(0, 0, 0);
+}
+
+.servicos li:active {/*houver ativo (mouse em cima de algo linkado)*/
+    border-color: rgb(115, 255, 0)
+}
+    
+.servicos h2{
+font-size: 30px;
+font-weight: bold;
+padding: 15px 0 0;
+}
+
+.consultas{
+    margin: 10px 0 0; 
+    width: 100px;  
+    
+}
+.examesdeimagem{
+    margin: 10px 0 0;
+    width: 100px;  
+   
+}
+.exameslaborais{
+    margin: 10px 0 0;
+    width: 100px;
+}
+.nutricionista{
+    margin: 10px 0 0;
+    width: 100px;
+    
+}
+.nutri{
+    text-align: center;
+    padding:  auto 10px;
+    margin:   auto 10px;
+    font-size: 30px;
+}
+.servico-descricao{
+    font-size: 18px;
+    padding: 5px 0 0;
+    
+}
+.botao {
+    
+    background-color: #000000;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin: 20px 10px;
+}
+.botao a {
+    
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+footer{
+        padding: 10px 0;
+        text-align: center;
+        color: white;
+        background-color: rgb(0, 0, 0);
+}
+footer img{
+        width: 200px;
+        height: 200px;
+}
+.Copyright{ 
+        color: rgb(150,0, 0);
+        font-size: 13px;
+
+
+}

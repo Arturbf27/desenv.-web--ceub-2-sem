@@ -1,0 +1,94 @@
+header{
+    background-color: rgb(0, 0, 0);
+    padding: 10px 0;
+    }
+        
+.caixa-cabecalho{ 
+           
+        position: relative;
+        width: 940px;
+        margin: auto ;
+    }
+    
+h1 img{ 
+    
+        height: 190px;/*altura*/
+        width: 230px;/*largura*/
+    }
+
+nav{/*MENU*/
+        position: absolute; /*posicionamento das palavras na caixa do menu*/
+        top: 100px; /*topo*/  
+        right: 175px;
+    }
+
+nav li {
+        display:inline;/*alinhar item (li) tabela ul ou ol*/
+        margin: 0 0 0 25px; /*ESPAÇAMENTO : 0 cima 0 direito 0 baixo 15px esquerda  */
+        text-align: center;
+    }
+    
+nav a{ /*navegaçao  home ... */
+    text-transform: uppercase; /*maiusculo*/
+    color: rgb(255, 255, 255);
+    font-weight: bold; /*fonte em negrito*/
+    font-size: 20px ;
+    text-decoration:none ;/*sem sublinhar*/
+    }
+
+nav a:hover{ /* marcar link ao passar o mouse em cima do link*/
+            color:rgb(150, 0, 0); /*cor que ira ficar ao passar com o mouse "HOME"*/
+            text-decoration: underline; /*sublinhar quando passar o moouse*/
+    }
+h2{
+        border: 10px;
+        text-align: center;
+        font-size: 25px;
+        background-color: rgb(255, 255, 0);
+    }
+
+h3{             
+        margin-top:10px;
+        text-align: center, bold; 
+        color: red ;
+        padding: 10px; 
+        background-color: #000000;
+        text-align: center;
+    }
+
+.dados {
+        width: 940px;
+        margin: 0 auto;
+        text-align: left;
+        vertical-align: center;
+        border-radius: 25px;
+        border: 2px solid #000000;
+        right: 75px;
+        padding: 10px;
+    }
+  
+.dados li{
+    padding: 0px;
+}
+.botao {
+    
+    padding: 10px 10px;
+    margin: 10px 10px 10px 1100px ;
+    border-radius: 5px;
+}
+footer{
+        padding: 10px 0;
+        text-align: center;
+        color: white;
+        background-color: rgb(0, 0, 0);
+}
+footer img{
+        width: 200px;
+        height: 200px;
+}
+.Copyright{ 
+        color: rgb(150,0, 0);
+        font-size: 13px;
+        
+
+}
