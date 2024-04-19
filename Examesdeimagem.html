@@ -3,14 +3,15 @@
 
     <head>
         <meta charset="UTF-8">
-            <title>Exames de Imagem</title>
+            <title>Prontuario</title>
                 <link rel="stylesheet" href="reset.css">
-                <link rel="stylesheet" href="Formulario.html">
-                <link rel="stylesheet" href="Formulario.css">
+                <link rel="stylesheet" href="Prontuario.html">
+                <link rel="stylesheet" href="prontuario.css">
+                <script src="javascript.js"></script>
     </head>
-
     <body>
         <header>
+
         <div class="caixa-cabecalho">
 			<H1><img src="DNA2.png"></H1>
 
@@ -20,24 +21,41 @@
 						<li><a href="Prontuario.html">Prontuario</a></li>
 						<li><a href="Formulario.html">Trabalhe conosco</a></li>
 					</ul>
-				</nav>              
+				</nav>
 			</div>
 		</header>
-                
-        <H2> Agendamento</H2>
-            
-        <Form action="" method="get"></Form>
-                <li><label>Exame</label>
-                        <select>
-                            <option value=""> Raio-x</option>
-                            <option value="">Ressonancia</option>
-                        </select>    
+        <main>
+        <h2>PRONTUARIO</h2>
 
-                    <label>Profissional</label>
-                        <select>
-                            <option> José</option>
-                            <option> Maria</option>
-                        </select></br></li>
+        <ul class="questionario">            
+        <h3>IDENTIFICAÇÃO</h3></br>
+              
+<form action="" method="post" target="_blank" enctype="multipart/form-data"> <li>
 
-                <Label>Nome</Label>
-                <input type="text" required>
+    <div>   <label>Nome :</label>
+        <input type="Text" name="nome" id="nome" required>
+
+    </div><br/>
+
+    <div>   <label>Nome do médico:</label>
+                <select>
+                    <option>Dr. João</option>
+                    <option>Dr. Oracio</option>
+                </select>
+    </div>
+<br/>
+                <div>   <label>Data da consulta:</label>
+                    <input type="Text" name="nome" id="consulta" required>
+          
+                </div>
+                <br/>
+              
+          
+
+        </form>
+            </main>
+             <!--roda pé--><footer><img src="DNA2.png">
+				<p class="Copyright"> © Copyright 2024 Landingpage-ADS_Ceub</p>
+            </footer>
+        </body>
+</html>
